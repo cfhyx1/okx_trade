@@ -1,0 +1,24 @@
+
+# OKX自动交易程序依赖包
+# 运行前请安装这些依赖
+
+# 数据处理
+pandas>=1.5.0
+numpy>=1.24.0
+
+# HTTP请求
+requests>=2.28.0
+
+# 日志
+colorlog>=6.7.0
+
+# 可视化（可选）
+matplotlib>=3.6.0
+plotly>=5.10.0
+
+# 异步支持（可选）
+aiohttp>=3.8.3
+
+# Python兼容性
+setuptools>=65.5.0
+wheel>=0.40.0
