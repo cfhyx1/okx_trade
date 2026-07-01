@@ -109,6 +109,13 @@ class AutoTradingBot:
                     # 计算技术指标
                     df = calculate_indicators(df)
 
+                    # 打印当前交易对实时价格（实时价格每个循环都会记录）
+                    current_price = self.trading_engine.get_current_price()
+                    if current_price is not None:
+                        self.logger.info(f"实时价格: {current_price}")
+                    else:
+                        self.logger.warning("无法获取实时价格")
+
                     # 生成交易信号
                     signal = self.strategy.generate_signal(df)
 
