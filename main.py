@@ -170,7 +170,7 @@ class AutoTradingBot:
 
                     # 等待下一个周期
                     self.logger.info(f"等待下一个周期... 当前时间: {datetime.now().strftime('%Y-%m-%d %H:%M:%S')}")
-                    time.sleep(30)  # 每30秒检查一次
+                    time.sleep(5)  # 每5秒检查一次
 
                 except Exception as e:
                     self.logger.error(f"交易循环异常: {str(e)}")
