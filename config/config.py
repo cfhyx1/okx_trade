@@ -1,9 +1,9 @@
 
 # OKX API配置
 # 请在OKX官网申请API密钥，并填入以下字段
-API_KEY = "063a1d8d-18ca-44c6-941f-47c834263e8d"  # OKX API密钥
-SECRET_KEY = "736C25FB1F93D4712220C24F6DC5F788"  # OKX API密钥
-PASSPHRASE = "Yashiro0070."  # OKX API口令
+API_KEY = ""  # OKX API密钥
+SECRET_KEY = ""  # OKX API密钥
+PASSPHRASE = ""  # OKX API口令
 
 # 交易配置
 TRADING_MODE = "cross"  # 交易模式: cross(全仓) 或 isolated(逐仓)
